@@ -1,0 +1,32 @@
+- Author dernier commit : Patrick Baumgartner <contact@patbaumgartner.com> -- git log -1
+- Author premier commit : michaelisvy <misvy@vmware.com> -- git log --reverse
+
+- All Banches : * main
+  remotes/origin/3310
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/efficient-webjars
+  remotes/origin/gh-pages
+  remotes/origin/hacking/mysql
+  remotes/origin/main
+  remotes/origin/spring-ai
+  remotes/origin/springboot3
+  remotes/origin/wavefront
+
+(Donc 10 branches pour je suppose travailler sur un feature du projet)
+
+git branch --all
+
+-  210  Mic
+   156  Dave Syer
+   142  Antoine Rey
+
+git shortlog -s -n (-s nbre de commit de l'auteur, -n trié de manière décroissante)
+
+- Il y a un tag (Cela correspond à la version du projet)
+1.5.x
+
+git tag 
+
+- Le dépot combien de l'intégration continue :
+.github/workflows/gradle-build.yml
+.github/workflows/maven-build.yml
