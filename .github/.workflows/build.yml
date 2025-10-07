@@ -1,8 +1,6 @@
 name: Build
 
-on:
-  push:
-    branches: [ master ]
+on: [push]
 
 jobs:
   build:
@@ -15,4 +13,4 @@ jobs:
         with:
           python-version: "3.11"
       - name: Run hello.py
-        run: python hello.py
+        run: python Exo2/hello.py
